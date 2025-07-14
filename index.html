@@ -8,13 +8,22 @@
 </head>
 <body>
   <h1>Malla Terapia Ocupacional UC</h1>
+
   <div id="leyenda">
-    <span class="box aprobado"></span>Aprobado  
-    <span class="box en-curso"></span>En curso  
-    <span class="box pendiente"></span>Pendiente
+    <strong>Leyenda:</strong><br>
+    <span class="box aprobado"></span> Aprobado  
+    <span class="box en-curso"></span> En curso  
+    <span class="box pendiente"></span> Pendiente
   </div>
-  <button onclick="aprobarSemestre(1)">Marcar Semestre 1</button>
+
+  <div id="botones">
+    <button onclick="aprobarSemestre(1)">✔️ Marcar Semestre 1</button>
+    <button onclick="aprobarSemestre(2)">✔️ Marcar Semestre 2</button>
+    <!-- puedes agregar más botones aquí -->
+  </div>
+
   <div class="malla" id="malla"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
